@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Penguins453//Pollok Fixtures//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:⚽ Pollok FC Fixtures
+BEGIN:VEVENT
+UID:20260726-home-beith@pollok
+DTSTAMP:20260722T120000Z
+DTSTART:20260725T140000
+DTEND:20260725T160000
+SUMMARY:⚽ Pollok v Beith Juniors (Home)
+LOCATION:Newlandsfield Park\, 12 Newlandsfield Road\, Glasgow G43 2XR
+DESCRIPTION:West of Scotland Football League Premier Division\nSource: https://www.pollokfc.com/fixtures-and-results/
+END:VEVENT
+END:VCALENDAR
