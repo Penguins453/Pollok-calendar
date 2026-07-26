@@ -3,16 +3,14 @@
 """Pollok FC Calendar Generator."""
 
 import requests
+from bs4 import BeautifulSoup
 
 FIXTURES_URL = "https://www.pollokfc.com/calendar/fixtures-and-results-2026-27/"
 
 
 def main():
-    """Download the Pollok fixtures page."""
-
     print("⚽ Pollok Calendar Generator")
     print("=" * 40)
-    print(f"Downloading {FIXTURES_URL}")
 
     headers = {
         "User-Agent": (
@@ -22,25 +20,34 @@ def main():
         )
     }
 
-    try:
-        response = requests.get(
-            FIXTURES_URL,
-            headers=headers,
-            timeout=30
-        )
+    response = requests.get(
+        FIXTURES_URL,
+        headers=headers,
+        timeout=30,
+    )
+    response.raise_for_status()
 
-        response.raise_for_status()
+    soup = BeautifulSoup(response.text, "html.parser")
 
-        print("✓ Download successful")
-        print(f"Status: {response.status_code}")
-        print(f"Downloaded: {len(response.text):,} characters")
+    table = soup.find_all("table")[0]
 
-        print("\nFirst 1000 characters:\n")
-        print(response.text[:1000])
+    rows = table.find_all("tr")
 
-    except requests.RequestException as err:
-        print(f"✗ Download failed: {err}")
+    print(f"Found {len(rows)-1} fixtures\n")
 
+    first_fixture = rows[1]
+
+    cells = first_fixture.find_all("td")
+
+    fixture = {
+        "date": cells[0]["content"],
+        "match": cells[1].get_text(strip=True),
+        "result": cells[2].get_text(strip=True),
+        "competition": cells[3].get_text(strip=True),
+        "ground": cells[4].get_text(strip=True),
+    }
+
+    print(fixture)
 
 if __name__ == "__main__":
-    main()
+        main()
