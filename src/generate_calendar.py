@@ -12,18 +12,17 @@ def main():
 
     print("⚽ Pollok Calendar Generator")
     print("=" * 40)
-
     print(f"Downloading {FIXTURES_URL}")
 
-    try:
-        headers = {
-            "User-Agent": (
-                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/138.0 Safari/537.36"
-            )
-        }
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/138.0 Safari/537.36"
+        )
+    }
 
+    try:
         response = requests.get(
             FIXTURES_URL,
             headers=headers,
@@ -35,6 +34,9 @@ def main():
         print("✓ Download successful")
         print(f"Status: {response.status_code}")
         print(f"Downloaded: {len(response.text):,} characters")
+
+        print("\nFirst 1000 characters:\n")
+        print(response.text[:1000])
 
     except requests.RequestException as err:
         print(f"✗ Download failed: {err}")
