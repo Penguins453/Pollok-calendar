@@ -3,8 +3,11 @@
 """Pollok FC Calendar Generator."""
 
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Optional
+from zoneinfo import ZoneInfo
+
+from icalendar import Calendar, Event
 
 import requests
 from bs4 import BeautifulSoup
@@ -82,6 +85,26 @@ def extract_fixtures(soup):
 
     return fixtures
 
+def create_calendar(fixtures):
+    calendar = Calendar()
+
+    calendar.add("prodid", "-//Pollok FC Calendar//pollokfc.com//")
+    calendar.add("version", "2.0")
+    calendar.add("X-WR-CALNAME", "Pollok FC Fixtures")
+
+    for fixture in fixtures:
+        event = Event()
+
+        event.add("summary", f"⚽ {fixture.match.replace(' v ', ' vs ')}")
+        start = fixture.date.astimezone(ZoneInfo("Europe/London"))
+        start = start.replace(second=0, microsecond=0)
+        end = start + timedelta(hours=2)
+        event.add("dtstart", start)
+        event.add("dtend", end)
+        calendar.add_component(event)
+
+    return calendar
+
 def main():
     print("⚽ Pollok Calendar Generator")
     print("=" * 40)
@@ -89,11 +112,14 @@ def main():
     soup = download_page()
 
     fixtures = extract_fixtures(soup)
+    calendar = create_calendar(fixtures)
+    with open("data/pollok-fixtures.ics", "wb") as file:
+        file.write(calendar.to_ical())
 
     print(f"Extracted {len(fixtures)} fixtures.\n")
 
     for fixture in fixtures[:5]:
         print(fixture)
-                    
+
 if __name__ == "__main__":
     main()
