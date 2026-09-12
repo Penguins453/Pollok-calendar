@@ -6,215 +6,387 @@ BEGIN:VEVENT
 SUMMARY:⚽ Pollok vs Partick Thistle
 DTSTART;TZID=Europe/London:20260627T150000
 DTEND;TZID=Europe/London:20260627T170000
+UID:5b605d6a-aeeb-5776-bfb5-4d8c38ff2f5a@pollokfc.com
+DESCRIPTION:Competition: Pre-season Friendly\nResult: 0 - 0\nSource: https
+ ://www.pollokfc.com/calendar/fixtures-and-results-2026-27/
+LOCATION:Newlandsfield Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Ardrossan Winton Rovers vs Pollok
 DTSTART;TZID=Europe/London:20260708T194500
 DTEND;TZID=Europe/London:20260708T214500
+UID:5d5eab5b-b5e4-521e-9100-2ea69e0d06f1@pollokfc.com
+DESCRIPTION:Competition: Pre-season Friendly\nResult: 1 - 1\nSource: https
+ ://www.pollokfc.com/calendar/fixtures-and-results-2026-27/
+LOCATION:Winton Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Gala Fairydean vs Pollok
 DTSTART;TZID=Europe/London:20260711T150000
 DTEND;TZID=Europe/London:20260711T170000
+UID:2e7f3b1f-2b13-5b4e-9dd5-4c9f420a19ad@pollokfc.com
+DESCRIPTION:Competition: Pre-season Friendly\nResult: 3 - 1\nSource: https
+ ://www.pollokfc.com/calendar/fixtures-and-results-2026-27/
+LOCATION:Netherdale
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Pollok vs Petershill
 DTSTART;TZID=Europe/London:20260715T193000
 DTEND;TZID=Europe/London:20260715T213000
+UID:a7e4b1f9-7d1d-58f8-8d20-9f0e0dc232ac@pollokfc.com
+DESCRIPTION:Competition: Pre-season Friendly\nResult: 4 - 2\nSource: https
+ ://www.pollokfc.com/calendar/fixtures-and-results-2026-27/
+LOCATION:Newlandsfield Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Pollok vs East Stirlingshire
 DTSTART;TZID=Europe/London:20260718T150000
 DTEND;TZID=Europe/London:20260718T170000
+UID:1e42f816-fa8a-50a1-aa93-53ca75f3c2e5@pollokfc.com
+DESCRIPTION:Competition: Pre-season Friendly\nResult: 2 - 1\nSource: https
+ ://www.pollokfc.com/calendar/fixtures-and-results-2026-27/
+LOCATION:Newlandsfield Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Pollok vs Easterhouse FA
 DTSTART;TZID=Europe/London:20260722T193000
 DTEND;TZID=Europe/London:20260722T213000
+UID:9561237f-62a4-5236-a263-3cfad0cebcaf@pollokfc.com
+DESCRIPTION:Competition: Pre-season Friendly\nResult: 4 - 0\nSource: https
+ ://www.pollokfc.com/calendar/fixtures-and-results-2026-27/
+LOCATION:Newlandsfield Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Pollok vs Troon
 DTSTART;TZID=Europe/London:20260725T150000
 DTEND;TZID=Europe/London:20260725T170000
+UID:01c69dd9-f992-5ead-b41a-ddd3c586e431@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nResult: 2 - 0\nSource: https
+ ://www.pollokfc.com/calendar/fixtures-and-results-2026-27/
+LOCATION:Newlandsfield Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Renfrew vs Pollok
 DTSTART;TZID=Europe/London:20260729T194500
 DTEND;TZID=Europe/London:20260729T214500
+UID:32a8816e-ad58-593f-9725-d7d4761890e9@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nResult: 1 - 4\nSource: https
+ ://www.pollokfc.com/calendar/fixtures-and-results-2026-27/
+LOCATION:New Western Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Dalbeattie Star vs Pollok
 DTSTART;TZID=Europe/London:20260801T150000
 DTEND;TZID=Europe/London:20260801T170000
+UID:0f46f397-aa0d-5d3f-a980-9cb17400d1dd@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nResult: 0 - 2\nSource: https
+ ://www.pollokfc.com/calendar/fixtures-and-results-2026-27/
+LOCATION:Islecroft Stadium
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Newton Stewart vs Pollok
 DTSTART;TZID=Europe/London:20260808T150000
 DTEND;TZID=Europe/London:20260808T170000
+UID:c79a3656-2611-5c9b-88c3-72965ccedcea@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nResult: 2 - 2\nSource: https
+ ://www.pollokfc.com/calendar/fixtures-and-results-2026-27/
+LOCATION:Blairmount Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Brechin City vs Pollok
 DTSTART;TZID=Europe/London:20260815T150000
 DTEND;TZID=Europe/London:20260815T170000
+UID:693fb62a-f4fc-52fe-a051-7952b19716b5@pollokfc.com
+DESCRIPTION:Competition: South Challenge Cup\nResult: 0 - 1\nSource: https
+ ://www.pollokfc.com/calendar/fixtures-and-results-2026-27/
+LOCATION:Glebe Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Pollok vs Johnstone Burgh
 DTSTART;TZID=Europe/London:20260819T194500
 DTEND;TZID=Europe/London:20260819T214500
+UID:547acdc4-f045-5dfa-a296-18b1738daeb8@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nResult: 3 - 1\nSource: https
+ ://www.pollokfc.com/calendar/fixtures-and-results-2026-27/
+LOCATION:Newlandsfield Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Pollok vs Livingston United
 DTSTART;TZID=Europe/London:20260822T143000
 DTEND;TZID=Europe/London:20260822T163000
+UID:b4243b41-c5c9-52f4-ab7a-06abca63e524@pollokfc.com
+DESCRIPTION:Competition: Scottish Communities Cup\nResult: 6 - 1\nSource: 
+ https://www.pollokfc.com/calendar/fixtures-and-results-2026-27/
+LOCATION:Newlandsfield Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Pollok vs Beith Juniors
 DTSTART;TZID=Europe/London:20260829T150000
 DTEND;TZID=Europe/London:20260829T170000
+UID:dd359f40-e81c-537b-8757-fa3497451d49@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nResult: 2 - 1\nSource: https
+ ://www.pollokfc.com/calendar/fixtures-and-results-2026-27/
+LOCATION:Newlandsfield Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Pollok vs Civil Service Strollers
 DTSTART;TZID=Europe/London:20260905T150000
 DTEND;TZID=Europe/London:20260905T170000
+UID:5e2df696-f3f5-5a8a-a69d-801b4c8e97ad@pollokfc.com
+DESCRIPTION:Competition: South Challenge Cup\nResult: 3 - 0\nSource: https
+ ://www.pollokfc.com/calendar/fixtures-and-results-2026-27/
+LOCATION:Newlandsfield Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Gretna 2008 vs Pollok
 DTSTART;TZID=Europe/London:20260912T150000
 DTEND;TZID=Europe/London:20260912T170000
+UID:fff62da2-6e06-589e-a110-cd3ae54b8546@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Raydale Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Pollok vs Renfrew
 DTSTART;TZID=Europe/London:20260916T194500
 DTEND;TZID=Europe/London:20260916T214500
+UID:cd286ccc-0627-56cf-80a4-754811f235cf@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Newlandsfield Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Clydebank vs Pollok
 DTSTART;TZID=Europe/London:20260919T150000
 DTEND;TZID=Europe/London:20260919T170000
+UID:9f589841-8c45-56c0-99b8-004cd872d088@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Holm Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Pollok vs Albion Rovers
 DTSTART;TZID=Europe/London:20260926T150000
 DTEND;TZID=Europe/London:20260926T170000
+UID:0b0f0554-9922-57db-adec-7ecbd0367294@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Newlandsfield Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Camelon vs Pollok (KO TBC)
 DTSTART;TZID=Europe/London:20261010T150000
 DTEND;TZID=Europe/London:20261010T170000
+UID:1d8f2628-afa1-54a0-ba0f-e4cf25841990@pollokfc.com
+DESCRIPTION:Competition: South Challenge Cup\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Carmuirs Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Largs Thistle vs Pollok
 DTSTART;TZID=Europe/London:20261017T150000
 DTEND;TZID=Europe/London:20261017T170000
+UID:e7fb965d-6589-5a1b-b12f-803fa6ebfb10@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Barrfields Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Johnstone Burgh vs Pollok
 DTSTART;TZID=Europe/London:20261028T194500
 DTEND;TZID=Europe/London:20261028T214500
+UID:542d60f2-b2c5-5ec9-a4a8-d59a99404dea@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Keanie Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Pollok vs Celtic B
 DTSTART;TZID=Europe/London:20261031T150000
 DTEND;TZID=Europe/London:20261031T170000
+UID:d03d6818-3da8-5893-b820-e7540a474aaa@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Newlandsfield Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Pollok vs Caledonian Braves
 DTSTART;TZID=Europe/London:20261107T150000
 DTEND;TZID=Europe/London:20261107T170000
+UID:f834dbaa-f67e-561c-81f1-42f937a49d47@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Newlandsfield Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Cumbernauld Colts vs Pollok
 DTSTART;TZID=Europe/London:20261117T194500
 DTEND;TZID=Europe/London:20261117T214500
+UID:576f5038-7182-5a8e-a353-8f24ade56428@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Broadwood Stadium
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Pollok vs Linlithgow Rose
 DTSTART;TZID=Europe/London:20261121T150000
 DTEND;TZID=Europe/London:20261121T170000
+UID:058cf3b4-6514-55de-adaf-6d92249746e8@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Newlandsfield Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Auchinleck Talbot vs Pollok
 DTSTART;TZID=Europe/London:20261128T150000
 DTEND;TZID=Europe/London:20261128T170000
+UID:f74ac0cb-d366-50fe-a43e-e81f6c0d4d8e@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Beechwood Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Pollok vs Kilwinning Rangers
 DTSTART;TZID=Europe/London:20261205T150000
 DTEND;TZID=Europe/London:20261205T170000
+UID:f4636f46-4d07-540f-b750-d8f8406fc35e@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Newlandsfield Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Pollok vs Gretna 2008
 DTSTART;TZID=Europe/London:20261209T194500
 DTEND;TZID=Europe/London:20261209T214500
+UID:5d3e73cd-c5db-5d3e-9c89-e12960d4e51f@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Newlandsfield Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Cumnock vs Pollok
 DTSTART;TZID=Europe/London:20261212T150000
 DTEND;TZID=Europe/London:20261212T170000
+UID:44ed166e-b2df-5b53-949c-23a78f2519a0@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Townhead Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Albion Rovers vs Pollok
 DTSTART;TZID=Europe/London:20261226T150000
 DTEND;TZID=Europe/London:20261226T170000
+UID:b4226271-e31d-5f3d-bfae-270d9d441fdf@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Cliftonhill
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Pollok vs Clydebank
 DTSTART;TZID=Europe/London:20270102T150000
 DTEND;TZID=Europe/London:20270102T170000
+UID:b0a15984-5cde-526f-9a92-cf91e7d7d794@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Newlandsfield Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Pollok vs Cumbernauld Colts
 DTSTART;TZID=Europe/London:20270109T150000
 DTEND;TZID=Europe/London:20270109T170000
+UID:431413b5-1743-5f93-b959-73e58941eec5@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Newlandsfield Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Caledonian Braves vs Pollok
 DTSTART;TZID=Europe/London:20270123T150000
 DTEND;TZID=Europe/London:20270123T170000
+UID:83984dbc-8a13-52d5-abc9-c08c8bb9e2f7@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Alliance Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Celtic B vs Pollok
 DTSTART;TZID=Europe/London:20270206T150000
 DTEND;TZID=Europe/London:20270206T170000
+UID:a88ce050-8c6b-529f-b725-6465d2a7abb5@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:The Albert Bartlett Stadium
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Pollok vs Largs Thistle
 DTSTART;TZID=Europe/London:20270213T150000
 DTEND;TZID=Europe/London:20270213T170000
+UID:efc788aa-84f5-5b36-8809-599cbf8d3474@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Newlandsfield Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Beith Juniors vs Pollok
 DTSTART;TZID=Europe/London:20270220T150000
 DTEND;TZID=Europe/London:20270220T170000
+UID:6d526612-95e1-5234-8ecc-0ac282d2532b@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Bellsdale Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Pollok vs Newton Stewart
 DTSTART;TZID=Europe/London:20270227T150000
 DTEND;TZID=Europe/London:20270227T170000
+UID:1a8bd6d2-c867-50a0-a479-fecfb0702f7e@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Newlandsfield Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Pollok vs Dalbeattie Star
 DTSTART;TZID=Europe/London:20270306T150000
 DTEND;TZID=Europe/London:20270306T170000
+UID:ab131a3c-f392-53fe-959e-ad5d27d1901b@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Newlandsfield Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Troon vs Pollok
 DTSTART;TZID=Europe/London:20270313T150000
 DTEND;TZID=Europe/London:20270313T170000
+UID:dae07fbe-e48d-5444-8049-a3864500ef1b@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Portland Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Pollok vs Auchinleck Talbot
 DTSTART;TZID=Europe/London:20270403T150000
 DTEND;TZID=Europe/London:20270403T170000
+UID:3d530dc5-dc98-5fec-9842-56286fd7352d@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Newlandsfield Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Kilwinning Rangers vs Pollok
 DTSTART;TZID=Europe/London:20270410T150000
 DTEND;TZID=Europe/London:20270410T170000
+UID:860e45bc-4e4c-54e3-a3be-4f5a73215f4d@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Buffs Park
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:⚽ Pollok vs Cumnock
 DTSTART;TZID=Europe/London:20270417T150000
 DTEND;TZID=Europe/London:20270417T170000
+UID:8a63ff02-40e4-5850-ae63-1c61305526cb@pollokfc.com
+DESCRIPTION:Competition: Lowland League West\nSource: https://www.pollokfc
+ .com/calendar/fixtures-and-results-2026-27/
+LOCATION:Newlandsfield Park
 END:VEVENT
 END:VCALENDAR

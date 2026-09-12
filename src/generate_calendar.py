@@ -7,6 +7,8 @@ from datetime import datetime, timedelta
 from typing import Optional
 from zoneinfo import ZoneInfo
 
+import uuid
+
 from icalendar import Calendar, Event
 
 import requests
@@ -94,13 +96,21 @@ def create_calendar(fixtures):
 
     for fixture in fixtures:
         event = Event()
-
+        uid = uuid.uuid5(uuid.NAMESPACE_URL, f"{fixture.date.date()}-{fixture.match}")
+        event.add("uid", f"{uid}@pollokfc.com")
         event.add("summary", f"⚽ {fixture.match.replace(' v ', ' vs ')}")
         start = fixture.date.astimezone(ZoneInfo("Europe/London"))
         start = start.replace(second=0, microsecond=0)
         end = start + timedelta(hours=2)
         event.add("dtstart", start)
         event.add("dtend", end)
+        event.add("location", fixture.ground)
+        description = f"Competition: {fixture.competition}"
+        if fixture.result:
+            description += f"\nResult: {fixture.result}"
+        description += f"\nSource: {FIXTURES_URL}"
+
+        event.add("description", description)
         calendar.add_component(event)
 
     return calendar
