@@ -4,6 +4,7 @@
 
 from dataclasses import dataclass
 from datetime import datetime
+from typing import Optional
 
 import requests
 from bs4 import BeautifulSoup
@@ -16,7 +17,7 @@ class Fixture:
     match: str
     opponent: str
     home: bool
-    result: str
+    result: Optional[str]
     competition: str
     ground: str
     
@@ -61,16 +62,22 @@ def extract_fixtures(soup):
         else:
             home = False
             opponent = match
+        time_result = cells[2].get_text(strip=True)
 
+        if ":" in time_result:
+            result = None
+        else:
+            result = time_result
+            
         fixture = Fixture(
             date=datetime.fromisoformat(cells[0]["content"]),
             match=match,
             opponent=opponent,
             home=home,
-            result=cells[2].get_text(strip=True),
+            result=result,
             competition=cells[3].get_text(strip=True),
             ground=cells[4].get_text(strip=True),
-        )
+        )        
         fixtures.append(fixture)
 
     return fixtures
@@ -87,6 +94,6 @@ def main():
 
     for fixture in fixtures[:5]:
         print(fixture)
-
+                    
 if __name__ == "__main__":
     main()
