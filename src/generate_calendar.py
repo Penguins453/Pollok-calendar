@@ -15,7 +15,29 @@ import requests
 from bs4 import BeautifulSoup
 
 FIXTURES_URL = "https://www.pollokfc.com/calendar/fixtures-and-results-2026-27/"
-
+GROUND_LOCATIONS = {
+    "Newlandsfield Park": "3 Newlandsfield Rd, Glasgow G43 2XU, UK",
+    "Winton Park": "Winton Street, Ardrossan KA22 8JG, UK",
+    "Netherdale": "Nether Road, Galashiels TD1 3HE, UK",
+    "New Western Park": "1 Argyll Avenue, Renfrew PA4 9EF, UK",
+    "Islecroft Stadium": "Mill Street, Dalbeattie DG5 4HE, UK",
+    "Blairmount Park": "Corsbie Road, Newton Stewart DG8 6NU, UK",
+    "Glebe Park": "Trinity Road, Brechin DD9 6BJ, UK",
+    "Raydale Park": "18-30 Dominion Rd, Gretna DG16 5AP, UK",
+    "Holm Park": "Dock Street, Yoker, Clydebank G81 1LX, UK",
+    "Carmuirs Park": "Fairlie Drive, Camelon, Falkirk FK1 4NP, UK",
+    "Barrfields Park": "Brisbane Road, Largs KA30 8NP, UK",
+    "Keanie Park": "57 Auchenlodment Rd, Elderslie, Johnstone PA5 9PE, UK",
+    "Broadwood Stadium": "1 Ardgoil Drive, Cumbernauld G68 9NE, UK",
+    "Beechwood Park": "Beechwood Avenue, Auchinleck KA18 2AR, UK",
+    "Townhead Park": "148 Townhead Street, Cumnock KA18 1LZ, UK",
+    "Cliftonhill": "Main Street, Coatbridge ML5 3RB, UK",
+    "Alliance Park": "Alliance Park, Motherwell ML1 3RB, UK",
+    "The Albert Bartlett Stadium": "Craigneuk Avenue, Airdrie ML6 8QZ, UK",
+    "Bellsdale Park": "Meadowside Terrace, Beith KA15 2AF, UK",
+    "Portland Park": "Portland Street, Troon KA10 6QN, UK",
+    "Buffs Park": "Pennyburn Road, Kilwinning KA13 6LF, UK",
+}
 @dataclass
 class Fixture:
     date: datetime
@@ -104,7 +126,8 @@ def create_calendar(fixtures):
         end = start + timedelta(hours=2)
         event.add("dtstart", start)
         event.add("dtend", end)
-        event.add("location", fixture.ground)
+        location = GROUND_LOCATIONS.get(fixture.ground, fixture.ground)
+        event.add("location", location)
         description = f"Competition: {fixture.competition}"
         if fixture.result:
             description += f"\nResult: {fixture.result}"
